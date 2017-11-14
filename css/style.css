@@ -17,6 +17,8 @@ input:focus {
 body, html {
     height: 100%;
     margin: 0;
+    
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,13 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-family: Roboto;
 }
-.hero-image {
-    position: relative;
-    background-image: url(nature.jpg);
-    background-size: cover;
-    height: 90%;
 
-}
 
 .inner-content {
     position: absolute;
@@ -44,36 +40,38 @@ p {
 }
 
 .contain-text {
-    
+
     max-width: none;
     margin: 0 auto;
     background: #f9f9f9;
     font-size: 22px;
-    padding-top: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
     padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
     font-family: Optima;
+    overflow: hidden;
 }
 
 .contain-text_2 {
-    
+
     max-width: none;
     margin: 0 auto;
     background: #6a5acd;
     font-size: 22px;
-    padding-top: 50px;
-    padding-left: 180px;
-    padding-right: 100px;
     padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
     color:aliceblue;
     font-family: Optima;
+    overflow: hidden;
 }
 
 .topright {
     position: absolute;
     top: 150px;
-    left: 60px;
+    left: 60%;
     font-size: 18px;
 }
 
@@ -83,8 +81,8 @@ p {
 }
 
 #showcase img {
-    width: 90%
-    margin-left:60px;
+    width: 90%;
+    margin-left: 60%;
 }
 
 #contact {
@@ -100,12 +98,33 @@ footer {
     outline: none;
 }
 
-*:focus {
-outline: 0;
-outline: none;
-}
+
 
 .btn-group-justified > .btn-group .btn {
     width: 100%;
     outline: none;
+}
+
+#slider .item{
+    height: 500px;
+    background-size: cover;
+  
+}
+
+#slide1 {
+    background: url(umd.png)
+    center no-repeat;
+}
+
+#slide2 {
+    background: url(nature.jpg)
+    center no-repeat;
+}
+#slide3 {
+    background: url(sunset2.jpg)
+    center no-repeat;
+}
+
+.carousel-caption {
+    font-size: 18px;
 }
